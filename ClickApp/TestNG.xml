@@ -4,9 +4,6 @@
     <test name="TaskTest">
         <classes>
             <class name="Task.Assignment.TheTest">
-                <methods>
-                    <include name="Tests"/>
-                </methods>
             </class>
 
         </classes>

@@ -5,14 +5,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
 public class TaskCart {
-    WebDriver Sdriver = null;
+    WebDriver Sdriver;
 
     public TaskCart(WebDriver driver){
         Sdriver = driver;
         PageFactory.initElements(Sdriver, this);
 
     }
+
     @FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-backpack']")
     private WebElement backpack;
     public WebElement  getBackpack(){

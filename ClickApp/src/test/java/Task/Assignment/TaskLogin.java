@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class TaskLogin {
-    WebDriver Pdriver = null;
+    WebDriver Pdriver;
 
     public TaskLogin(WebDriver driver){
         Pdriver = driver;

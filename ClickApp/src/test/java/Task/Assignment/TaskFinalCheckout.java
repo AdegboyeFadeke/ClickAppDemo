@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class TaskFinalCheckout {
-    WebDriver Fdriver = null;
+    WebDriver Fdriver;
 
     public TaskFinalCheckout(WebDriver driver){
         Fdriver = driver;
